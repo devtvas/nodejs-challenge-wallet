@@ -1,0 +1,50 @@
+# Dependências do Node
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de build
+dist/
+build/
+
+# Arquivos de ambiente
+.env
+.env.test
+.env.production
+.env.*.local
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Diretórios de cache
+.cache/
+.npm/
+.yarn/
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de coverage
+coverage/
+
+# Arquivos de lock (pode incluir dependendo das práticas do time)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Outras configurações
+*.local
